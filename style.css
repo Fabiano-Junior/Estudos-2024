@@ -31,14 +31,19 @@ body {
   background-position: top center;
   background-size: cover;
   */
-
-  background: var(--bg-url) no-repeat top center/cover;
+  background: url(./assets/noise.fbc58917.svg) no-repeat top center/cover;
   height: 100vh;
 }
 
 body * {
-  font-family: "inter", sans-serif;
+  font-family: "Lazy Dog", sans-serif;
   color: var(--text-color);
+  font-size: 25px;
+}
+
+#subtitle {
+  font-size: 35px;
+  font: bold;
 }
 
 #container {
@@ -66,7 +71,7 @@ body * {
 }
 
 /*Switch*/
-#switch {
+/* #switch {
   position: relative;
   width: 64px;
 
@@ -107,7 +112,7 @@ body * {
   -webkit-backdrop-filter: blur(4px);
   border-radius: 9999px;
 }
-
+*/
 /* links */
 ul {
   list-style: none;
@@ -126,9 +131,9 @@ ul li a {
 
   padding: 16px 24px;
 
-  background: var(--surface-color);
-  border: 1px solid var(--stroke-color);
-  border-radius: 8px;
+  /* background: var(--surface-color); 
+  border: 1px solid transparent;
+  border-radius: 8px; */
 
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
@@ -140,8 +145,12 @@ ul li a {
 }
 
 ul li a:hover {
-  background-color: var(--surface-color-hover);
-  border: 1.5px solid var(--text-color);
+  border: 3px solid var(--text-color);
+  border-radius: 50%;
+}
+
+#image {
+  
 }
 
 /*social links*/
